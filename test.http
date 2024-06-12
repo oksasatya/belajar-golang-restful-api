@@ -1,0 +1,23 @@
+###get all category
+GET  http://localhost:3000/api/categories
+X-API-Key:RAHASIA
+Accept: application/json
+
+###get category by id
+GET http://localhost:3000/api/categories/1
+X-API-Key:RAHASIA
+
+
+###update category by id
+PUT http://localhost:3000/api/categories/1
+Accept: application/json
+Content-Type: application/json
+X-API-Key:RAHASIA
+
+{
+  "name": "Jamblang"
+}
+
+###delete category by id
+DELETE http://localhost:3000/api/categories/1
+X-API-Key:RAHASIA
