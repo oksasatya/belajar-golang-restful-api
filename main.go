@@ -13,8 +13,9 @@ func NewServer(authMiddleware *middleware.AuthMiddleware) *http.Server {
 		Handler: authMiddleware,
 	}
 }
+
 func main() {
-	//server := NewServer()
+	//server := InitializedServer()
 	//err := server.ListenAndServe()
 	//helper.PanicIfError(err)
 }
