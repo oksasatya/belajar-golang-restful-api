@@ -13,6 +13,7 @@ import (
 	"belajar-golang-restful-api/repository"
 	"belajar-golang-restful-api/service"
 	"github.com/go-playground/validator/v10"
+	_ "github.com/go-playground/validator/v10"
 	"github.com/google/wire"
 	"net/http"
 )
